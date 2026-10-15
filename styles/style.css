@@ -1,11 +1,9 @@
-
 body {
   color: #000;
   background-color: #fff;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-weight: 400;
 }
-
 
 .header {
   display: grid;
@@ -13,7 +11,6 @@ body {
   align-items: center;
   padding: 92px 50px 96px;
 }
-
 
 .header__menu {
   justify-self: start;
@@ -45,7 +42,6 @@ body {
   text-decoration: none;
 }
 
-
 .header__logo {
   display: block;
   width: 148px;
@@ -56,7 +52,6 @@ body {
   width: 100%;
   height: auto;
 }
-
 
 .address {
   display: flex;
@@ -70,14 +65,17 @@ body {
 .address__link {
   text-decoration: underline;
   text-underline-offset: 3px;
+  white-space: nowrap;
 }
 
+.address__text {
+  white-space: nowrap;
+}
 
 .header__address {
   justify-self: end;
   max-width: 240px;
 }
-
 
 .cover {
   position: relative;
@@ -149,7 +147,6 @@ body {
   cursor: pointer;
 }
 
-
 .lots {
   margin-top: 180px;
   padding: 0 24px;
@@ -157,7 +154,7 @@ body {
 
 .lots__heading {
   margin-bottom: 27px;
-  padding-left: 40px;
+  padding-left: 24px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -234,12 +231,11 @@ body {
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
-  padding-left: 40px;
+  padding-left: 24px;
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-
 
 .about {
   display: grid;
@@ -287,9 +283,7 @@ body {
   max-width: 688px;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0;
 }
-
 
 .footer {
   display: grid;
@@ -301,10 +295,6 @@ body {
 .footer__address {
   justify-self: start;
   max-width: 240px;
-}
-
-.footer__address .address__link {
-  white-space: nowrap;
 }
 
 .footer__menu {
