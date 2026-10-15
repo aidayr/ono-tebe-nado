@@ -4,15 +4,10 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  min-width: 1100px;
-  margin: auto;
+  width: 1100px;
+  margin: 0 auto;
   font-family: Raleway, sans-serif;
-  max-width: 1440px;
 }
 
 h1,
@@ -36,4 +31,8 @@ a {
 
 img {
   width: 100%;
+}
+
+button {
+  font: inherit;
 }
